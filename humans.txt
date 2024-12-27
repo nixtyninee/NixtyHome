@@ -6,56 +6,80 @@
 	Developer: Scott [z/ngf] (gave me the idea of adding revoozie to the error page as an easter egg)
 
 /* SITE */
-    NixtyHome 2.6.0
-	Completed: 2024/12/27
+    NixtyHome 3.0 B1.1
+	Finished: 2024/12/27
+	Standards: HTML4, CSS2, JS
+	Software: XAMPP, Apache, PHPStorm
+	Summary: added info.html and fixed some hyperlinks
+	Developed by: Victoria
+
+    NixtyHome 3.0 B1.0
+	Finished: 2024/12/27
+	Standards: HTML4, CSS2, JS
+	Software: XAMPP, Apache, PHPStorm
+	Summary: frontend stuff
+	Developed by: Victoria
+
+    NixtyHome 2.6
+	Finished: 2024/12/27
 	Standards: HTML4, CSS2, JS
 	Software: XAMPP, Apache, PHPStorm
 	Summary: added dedicated about me page (ty geno for giving me the idea to add it!!)
+	Developed by: Victoria
 
-    NixtyHome 2.5.0
-	Completed: 2024/12/27
+
+    NixtyHome 2.5
+	Finished: 2024/12/27
 	Standards: HTML4, CSS2, JS
 	Software: XAMPP, Apache, PHPStorm
 	Summary: added mini revoozie ("minivoozie" - z/ngf, december 27, 2024, 7:48AM) to the 404 page
+	Developed by: Victoria
 
-    NixtyHome 2.4.0
-	Completed: 2024/12/27
+    NixtyHome 2.4
+	Finished: 2024/12/27
 	Standards: HTML4, CSS2, JS
 	Software: XAMPP, Apache, PHPStorm
 	Summary: added 404 page
+	Developed by: Victoria
 
     "here before v2.4" - z/ngf, december 27, 2024, 7:41AM
 
-    NixtyHome 2.3.0
-	Completed: 2024/12/27
+    NixtyHome 2.3
+	Finished: 2024/12/27
 	Standards: HTML4, CSS2, JS
 	Software: XAMPP, Apache, PHPStorm
 	Summary: changed frontend to use dropdown boxes
+	Developed by: Victoria
 
-    NixtyHome 2.2.0
-	Completed: 2024/12/27
+    NixtyHome 2.2
+	Finished: 2024/12/27
 	Standards: HTML4, CSS2, JS
 	Software: XAMPP, Apache, PHPStorm
 	Summary: modified xml stuff
+	Developed by: Victoria
 
-    NixtyHome 2.1.0
-	Completed: 2024/12/27
+    NixtyHome 2.1
+	Finished: 2024/12/27
 	Standards: HTML4, CSS2, JS
 	Software: XAMPP, Apache, PHPStorm
 	Summary: modified buttons arrangement
+	Developed by: Victoria
 
-    NixtyHome 2.0.0
-	Completed: 2024/12/27
+    NixtyHome 2.0
+	Finished: 2024/12/27
 	Standards: HTML4, CSS2, JS
 	Software: XAMPP, Apache, PHPStorm
 	Summary: modified frontend and backend
+	Developed by: Victoria
 
-    NixtyHome 1.2.0
-	Completed: 2023/12/26
+    NixtyHome 1.2
+	Finished: 2023/12/26
 	Standards: HTML4, CSS2, JS
 	Software: Apache, Notepad++
+	Developed by: Geno
 
-	NixtyHome 1.1.0
-    Completed: 2023/12/26
+	NixtyHome 1.1
+    Finished: 2023/12/26
     Standards: HTML4, CSS2, JS
     Software: Apache, Notepad++
+    Developed by: Geno

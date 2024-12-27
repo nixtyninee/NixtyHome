@@ -33,36 +33,46 @@
 				</td>
 			</tr>
 
-			<script>
-				window.onload = function() {
-					if (window.location.search.indexOf("?egg") !== -1) {
-						document.getElementById("jane").style.display = "";
-					} else {
-						document.getElementById("jane").style.display = "none";
-					}
-				};
-			</script>
-
-			<tr id="jane" style="color: #ffffff; background-color: #ff0000;">
-				<td colspan="2">
-					<span style="font-size: 12px;">listen to "dream sequence" by jane remover</span>
-				</td>
-			</tr>
-
 			<tr>
 				<td valign="top" style="padding:8px">
 					<font color="white" size="2">
 						<h3>welcome to nixty's site</h3> <!-- where it says 'nixty's site' put the name of your site -->
 						hi!!! im nixty, im a 17 year old php webdev and i listen to lots of music by jane remover. <!-- put a short bio about yourself here -->
+
 						<br/><br/>
+						<div id="track-info"></div>
+
 						<details>
-						<summary><b>currently listening to</b></summary>
-						<ul>
-							<iframe src="https://descent.live/victoria-2007" width="100%" height="230" style="border:none;"><!-- put your last.fm username where it says 'victoria-2007', if you don't have lastfm you can remove this section -->
-							</iframe>
-							<br/><br/>
-						</ul>
+							<summary id="track-status"><b>Loading...</b></summary>
+							<div id="track-details"></div>
 						</details>
+
+						<script>
+							fetch('https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=LASTFM-USERNAME-HERE&limit=2&api_key=LASTFM-API-KEY-HERE&format=json')
+									.then(response => response.json())
+									.then(data => {
+										const track = data.recenttracks.track[0];
+										let artwork = track.image[2]['#text'] || 'img/no_art.jpg';
+										const trackInfo = {
+											name: track.name,
+											artist: track.artist['#text'],
+											link: track.url,
+											albumArt: artwork,
+											status: track['@attr']?.nowplaying ? 'now playing' : 'last played'
+										};
+
+										document.getElementById('track-status').innerHTML = `<b>${trackInfo.status}</b>`;
+
+										document.getElementById('track-details').innerHTML = `
+                ${trackInfo.name}<br>
+                ${trackInfo.artist}
+            `;
+									})
+									.catch(error => {
+										console.error('error fetching last.fm data:', error);
+									});
+						</script><!-- remove this if you dont have a lastfm account and api key -->
+
 						<details>
 							<summary><b>links</b></summary>
 							<ul>
@@ -99,15 +109,15 @@
 					</table>
 				</td>
 			</tr>
-			
+
 			<tr>
 				<td colspan="2">
-					<font color="white" size="1">running <b>NixtyHome 3.3</b> | <a href="info.html">info<a/> | <a href="https://github.com/nixtyninee/NixtyHome">view on github<a/></font>
+					<font color="white" size="1">running <b>NixtyHome 4.0</b> | <a href="info.html">info<a/> | <a href="https://github.com/nixtyninee/NixtyHome">view on github<a/></font>
 				</td>
 			</tr>
 		</table>
-		
+
 		<script src="js/boot.js"></script>
 	</body>
-	
+
 </html>

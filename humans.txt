@@ -6,6 +6,13 @@
 	Developer: Scott [z/ngf] (gave me the idea of adding revoozie to the error page as an easter egg)
 
 /* SITE */
+    NixtyHome 3.3
+	Compiled: 2024/12/27 10:15AM
+	Standards: HTML4, CSS2, JS
+	Software: XAMPP, Apache, PHPStorm
+	Summary: add nixtyhome logo
+	Developed by: Victoria
+
     NixtyHome 3.2
 	Compiled: 2024/12/27 10:06AM
 	Standards: HTML4, CSS2, JS

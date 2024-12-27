@@ -32,7 +32,23 @@
 					</font>
 				</td>
 			</tr>
-			
+
+			<script>
+				window.onload = function() {
+					if (window.location.search.indexOf("?egg") !== -1) {
+						document.getElementById("jane").style.display = "";
+					} else {
+						document.getElementById("jane").style.display = "none";
+					}
+				};
+			</script>
+
+			<tr id="jane" style="color: #ffffff; background-color: #ff0000;">
+				<td colspan="2">
+					<span style="font-size: 12px;">listen to "dream sequence" by jane remover</span>
+				</td>
+			</tr>
+
 			<tr>
 				<td valign="top" style="padding:8px">
 					<font color="white" size="2">

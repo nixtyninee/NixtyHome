@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>nixty's site RSS feed</title><!-- put your site's name where it says 'nixty's site' -->
+  <link>https://nixty.nekoweb.org</link><!-- put your site's url here -->
+    <item>
+        <author>victoria aka nixty</author><!-- put your username here -->
+        <description>placeholder post</description><!-- put your blog post here -->
+        <pubDate>27 Dec 2024 8:31 AM</pubDate><!-- put the current date and time here -->
+    </item>
+</channel>
+
+</rss>

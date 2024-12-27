@@ -1,0 +1,61 @@
+/* "I know places [this little easter egg] won't be found" */
+
+/* TEAM */
+	Developer: Victoria [nixtynine]
+	Developer: Gabriel [genosmrpg7899]
+	Developer: Scott [z/ngf] (gave me the idea of adding revoozie to the error page as an easter egg)
+
+/* SITE */
+    NixtyHome 2.6.0
+	Completed: 2024/12/27
+	Standards: HTML4, CSS2, JS
+	Software: XAMPP, Apache, PHPStorm
+	Summary: added dedicated about me page (ty geno for giving me the idea to add it!!)
+
+    NixtyHome 2.5.0
+	Completed: 2024/12/27
+	Standards: HTML4, CSS2, JS
+	Software: XAMPP, Apache, PHPStorm
+	Summary: added mini revoozie ("minivoozie" - z/ngf, december 27, 2024, 7:48AM) to the 404 page
+
+    NixtyHome 2.4.0
+	Completed: 2024/12/27
+	Standards: HTML4, CSS2, JS
+	Software: XAMPP, Apache, PHPStorm
+	Summary: added 404 page
+
+    "here before v2.4" - z/ngf, december 27, 2024, 7:41AM
+
+    NixtyHome 2.3.0
+	Completed: 2024/12/27
+	Standards: HTML4, CSS2, JS
+	Software: XAMPP, Apache, PHPStorm
+	Summary: changed frontend to use dropdown boxes
+
+    NixtyHome 2.2.0
+	Completed: 2024/12/27
+	Standards: HTML4, CSS2, JS
+	Software: XAMPP, Apache, PHPStorm
+	Summary: modified xml stuff
+
+    NixtyHome 2.1.0
+	Completed: 2024/12/27
+	Standards: HTML4, CSS2, JS
+	Software: XAMPP, Apache, PHPStorm
+	Summary: modified buttons arrangement
+
+    NixtyHome 2.0.0
+	Completed: 2024/12/27
+	Standards: HTML4, CSS2, JS
+	Software: XAMPP, Apache, PHPStorm
+	Summary: modified frontend and backend
+
+    NixtyHome 1.2.0
+	Completed: 2023/12/26
+	Standards: HTML4, CSS2, JS
+	Software: Apache, Notepad++
+
+	NixtyHome 1.1.0
+    Completed: 2023/12/26
+    Standards: HTML4, CSS2, JS
+    Software: Apache, Notepad++

@@ -2,12 +2,42 @@
 <rss version="2.0">
 
 <channel>
-  <title>nixty's site RSS feed</title><!-- put your site's name where it says 'nixty's site' -->
-  <link>https://nixty.nekoweb.org</link><!-- put your site's url here -->
+  <title>nixty's site RSS feed</title>
+  <link>https://nixty.nekoweb.org</link>
+     <item>
+        <author>victoria aka nixty</author>
+        <description>yippee version 3.1 is out</description>
+        <pubDate>27 Dec 2024 10:04 AM</pubDate>
+    </item>
     <item>
-        <author>victoria aka nixty</author><!-- put your username here -->
-        <description>placeholder post</description><!-- put your blog post here -->
-        <pubDate>27 Dec 2024 8:31 AM</pubDate><!-- put the current date and time here -->
+        <author>victoria aka nixty</author>
+        <description>holy shit version 2.5 already</description>
+        <pubDate>27 Dec 2024 8:01 AM</pubDate>
+    </item>
+    <item>
+        <author>victoria aka nixty</author>
+        <description>woaw version 2.3 already</description>
+        <pubDate>27 Dec 2024 7:39 AM</pubDate>
+    </item>
+    <item>
+        <author>victoria aka nixty</author>
+        <description>omg we're on version 2.2 already, woaw</description>
+        <pubDate>27 Dec 2024 7:26 AM</pubDate>
+    </item>
+    <item>
+        <author>victoria aka nixty</author>
+        <description>woaw its my site!!1111!!1</description>
+        <pubDate>27 Dec 2024 7:08 AM</pubDate>
+    </item>
+  <item>
+	<author>victoria aka nixty</author>
+    <description>test</description>
+	<pubDate>27 Dec 2024 6:55 AM</pubDate>
+  </item>
+    <item>
+        <author>victoria aka nixty</author>
+        <description>test post</description>
+        <pubDate>26 Dec 2023 3:46 PM</pubDate>
     </item>
 </channel>
 

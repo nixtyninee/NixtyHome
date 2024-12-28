@@ -1,27 +1,70 @@
-html {
-    font-family: Arial, sans-serif;
-    line-height: 1.5;
+/*
+Alphium for NixtyHome
+Made by Nixty/Victoria
+ */
+
+html, body {
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.4;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 0.9em;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 a {
-    color: lightblue;
+    color: #0066cc;
     text-decoration: none;
-    transition: color 0.3s ease;
+    font-size: 0.9em;
 }
+
 a:hover {
-    color: skyblue;
+    color: #0044cc;
+    text-decoration: none;
 }
 
 select {
-    font-family: Arial, sans-serif;
-    padding: 8px;
+    padding: 4px 8px;
+    font-size: 0.9em;
+    line-height: 1.4;
+    color: #333;
+    background-color: #fff;
     border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: #ffffff;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+    border-radius: 3px;
+    appearance: none;
+    cursor: pointer;
+    margin: 0;
 }
+
 select:hover, select:focus {
-    border-color: lightblue;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-color: #0066cc;
+    outline: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.8em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+table td, table th {
+    padding: 4px 8px;
+    border: none;
+}
+
+table tr:nth-child(even) {
+    background-color: #222;
+}
+
+img {
+    transition: transform 0.5s ease;
+}
+
+img:hover {
+    transform: rotate(360deg);
 }

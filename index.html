@@ -1,11 +1,11 @@
-﻿<!--
+<!--
 	♫ Let's fast forward to 300 takeout coffees later ♫
 	
 	https://nixty.nekoweb.org/humans.txt <3
---> <!-- put your site's domain where it says 'nixty.nekoweb.org' -->
+-->
 
 <!DOCTYPE html>
-<title>nixty's site - powered by nixtyhome</title> <!-- put your site's title here -->
+<title>nixty's site - powered by nixtyhome</title>
 <html>	
 	<head>
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -32,15 +32,15 @@
 					</font>
 				</td>
 			</tr>
-
+			
+		
 			<tr>
 				<td valign="top" style="padding:8px">
 					<font color="white" size="2">
-						<h3>welcome to nixty's site</h3> <!-- where it says 'nixty's site' put the name of your site -->
-						hi!!! im nixty, im a 17 year old php webdev and i listen to lots of music by jane remover. <!-- put a short bio about yourself here -->
-
+						<h3>welcome to nixty's site</h3>
+						hi!!! im nixty, im a 17 year old php webdev and i listen to lots of music by jane remover.
 						<br/><br/>
-						<div id="track-info"></div>
+												<div id="track-info"></div>
 
 						<details>
 							<summary id="track-status"><b>Loading...</b></summary>
@@ -48,7 +48,7 @@
 						</details>
 
 						<script>
-							fetch('https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=LASTFM-USERNAME-HERE&limit=2&api_key=LASTFM-API-KEY-HERE&format=json')
+							fetch('https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=victoria-2007&limit=2&api_key=004a92a8f311e4818bfb6f77f20eb0be&format=json')
 									.then(response => response.json())
 									.then(data => {
 										const track = data.recenttracks.track[0];
@@ -72,29 +72,30 @@
 										console.error('error fetching last.fm data:', error);
 									});
 						</script><!-- remove this if you dont have a lastfm account and api key -->
-
 						<details>
 							<summary><b>links</b></summary>
 							<ul>
-								<a href="https://google.com">link #1</a><!-- put a link to one of your socials here -->
+								<a href="https://discord.gg/bSDfg9Ua7d">discord server</a>
 								<br/>
-								<a href="https://google.com">link #2</a><!-- put a link to one of your socials here -->
+								<a href="https://bitview.net/user/flowerz">bitview</a>
 								<br/>
-								<a href="https://google.com">link #3</a><!-- put a link to one of your socials here -->
+								<a href="https://youtube.com/@nixtynine">youtube</a>
 								<br/>
-								<a href="https://google.com">link #4</a><!-- put a link to one of your socials here -->
+								<a href="https://last.fm/user/victoria-2007">lastfm</a>
 								<br/>
-								<a href="https://google.com">link #5</a><!-- put a link to one of your socials here -->
+								<a href="https://github.com/nixtyninee">github</a>
+								<br />
+								<a href="https://en.pronouns.page/u/nixty">pronouns.page</a>
 							</ul>
 						</details>
 						<details>
 							<summary><b>cool people</b></summary>
 							<ul>
-								<a href="https://google.com/">friend #1</a><!-- put one of your friends and a link to one of their social medias/their website here -->
+								<a href="https://ngf.xn--6frz82g/">z/ngf</a>
 								<br/>
-								<a href="https://google.com/">friend #1</a><!-- put one of your friends and a link to one of their social medias/their website here -->
+								<a href="https://lel.nekoweb.org">lel</a>
 								<br/>
-								<a href="https://google.com/">friend #1</a><!-- put one of your friends and a link to one of their social medias/their website here -->
+								<a href="https://crazyfrog.neocities.org/">geno</a>
 							</ul>
 						</details>
 					</font>
@@ -109,15 +110,15 @@
 					</table>
 				</td>
 			</tr>
-
+			
 			<tr>
 				<td colspan="2">
-					<font color="white" size="1">running <b>NixtyHome 4.1</b> | <a href="info.html">info<a/> | <a href="https://github.com/nixtyninee/NixtyHome">view on github<a/></font>
+<font color="white" size="1">running <b>NixtyHome 4.1</b> | <a href="info.html">info<a/> | <a href="https://github.com/nixtyninee/NixtyHome">view on github<a/></font>
 				</td>
 			</tr>
 		</table>
-
+		
 		<script src="js/boot.js"></script>
 	</body>
-
+	
 </html>
